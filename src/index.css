@@ -1,0 +1,15 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+/* index.css */
+section {
+  scroll-margin-top: 4rem; /* 64px navbar height */
+}
+
+html,
+body,
+#root {
+  @apply bg-neutral-900 text-white; /* dark bg + white text */
+  font-family: "Inter", sans-serif; /* optional: a clean font */
+}
